@@ -32,7 +32,7 @@ public class Fila_Caminhoneiros {
 		}
 	}
 
-	public String desinfileirar() {
+	public String desenfileirar() {
 		if (this.estaVazia())
 			return "[!] Fila vazia [!]";
 		else {

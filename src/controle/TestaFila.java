@@ -31,10 +31,10 @@ public class TestaFila {
 		System.out.println("\n#### desinfileirar ####\n");
 		
 		for (int i = 0; i < 10; i++) {
-			System.out.println(fila.desinfileirar());
+			System.out.println(fila.desenfileirar());
 		}
 
-		System.out.println(fila.desinfileirar());
+		System.out.println(fila.desenfileirar());
 		
 
 	}
