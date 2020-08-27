@@ -23,6 +23,14 @@ public class TestaFila {
 		fila.enfileirar("Marcio");
 		fila.enfileirar("João Vitor");
 		fila.enfileirar("Marcos");
+		
+		System.out.println("\n#### copia ####\n");
+		
+		Fila_Caminhoneiros fila2 = new Fila_Caminhoneiros();
+		
+		fila.copyTo(fila2);
+		
+		fila2.mostrarFila();
 
 		System.out.println("\n#### mostrarFila ####\n");
 		
@@ -35,7 +43,6 @@ public class TestaFila {
 		}
 
 		System.out.println(fila.desenfileirar());
-		
 
 	}
 

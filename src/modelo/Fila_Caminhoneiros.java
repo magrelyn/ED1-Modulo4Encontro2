@@ -54,5 +54,10 @@ public class Fila_Caminhoneiros {
 			System.out.println(this.caminhoneiros[i]);
 		}
 	}
+	
+	public void copyTo(Fila_Caminhoneiros fila) {
+		fila.caminhoneiros = this.caminhoneiros;
+		fila.total = this.total;
+	}
 
 }
